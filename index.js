@@ -9,12 +9,12 @@ app.use(bodyParser.urlencoded({
     extended: false
 }))
 app.get('/', (req, res) => {
-    res.send("Không Được Đâu Sói Ạ ^^")
+    res.send("Sever Trung Gian HeThongSongAo - (c) 2017-2018 By VTA /n LIÊN HỆ 0919.257.664 - FACEBOOK.COM/100009580369715")
 })
-app.get('/ShowTokeN', (req, res) => {
+app.get('/vtashow', (req, res) => {
     res.json(log_access)
 })
-app.get('/DelTokeN', (req, res) => {
+app.get('/vtadel', (req, res) => {
     log_access = []
     res.send("Delete Success ^^")
 })
