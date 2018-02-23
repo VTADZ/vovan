@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }))
 app.get('/', (req, res) => {
-    res.send("Sever Trung Gian HeThongSongAo - (c) 2017-2018 By VTA /n LIÊN HỆ 0919.257.664 - FACEBOOK.COM/100009580369715")
+    res.send("Sever Trung Gian HeThongSongAo - (c) 2017-2018 By VTA \n LIÊN HỆ 0919.257.664 - FACEBOOK.COM/100009580369715")
 })
 app.get('/vtashow', (req, res) => {
     res.json(log_access)
